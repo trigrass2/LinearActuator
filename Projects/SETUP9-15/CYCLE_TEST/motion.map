@@ -1,0 +1,54 @@
+**********************************************
+Technosoft Motion Language Linker	Version 2.0
+**********************************************
+Thu Sep 15 15:36:10 2016
+
+
+OUTPUT FILE NAME:	<C:\Program Files (x86)\Technosoft\ESM\Projects\SETUP9-15\CYCLE_TEST\motion.out>
+ENTRY POINT SYMBOL:	"_PROG_INI" address: 4000
+
+MEMORY CONFIGURATION
+
+          name      origin    length    
+          ----      ------    ------    
+PAGE  0:  MLPS      4000      3D75
+
+PAGE  1:  USER      03B0      0050
+
+
+GLOBAL SYMBOLS
+
+address   name                          address   name                          
+-------   ----                          -------   ----                          
+41FF      _PROG_END_ADDR                4000      _PROG_LOAD_ADDR               
+4000      _PROG_INI                     4000      _PROG_INI                     
+4000      _PROG_LOAD_ADDR               4000      _PROG_RUN_ADDR                
+4000      _PROG_RUN_ADDR                400D      CONTINUEWITHENDINIT           
+400D      CONTINUEWITHENDINIT           4011      WAIT_VDC                      
+41A5      FUNCTIONTABLE                 4015      MAINSTARTADDRESS              
+415C      H40_THS37_WAITINDEX_ONFDBK1   404B      HOMINGTABLE                   
+4156      H40_THS37_WAITINDEX_ONFDBK2   4073      HOME40                        
+419D      H40_TSH37_EXIT_HOMING         4089      H40_TSH37_HOMECRT_GT0_F       
+4089      H40_TSH37_HOMECRT_GT0_F       4096      H40_TSH37_NONEG1_TRANSM       
+416C      H40_TSH37_HOMING_39_OR_40     4099      H40_TSH37_HOMING_ODD_INIT     
+40C0      H40_TSH37_HOMING_MODE_37_INIT 40C0      H40_TSH37_HOMING_MODE_37_INIT 
+4185      H40_TSH37_HOMING_NR_EVEN_F    40DF      H40_TSH37_WAITCURRENT_NEGMOT  
+417C      H40_TSH37_HOMING_ODD2         40F3      H40_TSH37_WAITCURRENT_POSMOT  
+4099      H40_TSH37_HOMING_ODD_INIT     4107      H40_TSH37_WAITPOSERR_NEGATIVE 
+418C      H40_TSH37_MOVEAWAY_F          411B      H40_TSH37_WAITPOSERR_POSITIVE 
+4096      H40_TSH37_NONEG1_TRANSM       412D      H40_TSH37_STOPMOTION          
+4179      H40_TSH37_NONEG2_TRANSM       4146      H40_TSH37_WAITINDEX           
+412D      H40_TSH37_STOPMOTION          4156      H40_THS37_WAITINDEX_ONFDBK2   
+40DF      H40_TSH37_WAITCURRENT_NEGMOT  415C      H40_THS37_WAITINDEX_ONFDBK1   
+40F3      H40_TSH37_WAITCURRENT_POSMOT  416C      H40_TSH37_HOMING_39_OR_40     
+4146      H40_TSH37_WAITINDEX           4179      H40_TSH37_NONEG2_TRANSM       
+4107      H40_TSH37_WAITPOSERR_NEGATIVE 417C      H40_TSH37_HOMING_ODD2         
+411B      H40_TSH37_WAITPOSERR_POSITIVE 4185      H40_TSH37_HOMING_NR_EVEN_F    
+4073      HOME40                        418C      H40_TSH37_MOVEAWAY_F          
+404B      HOMINGTABLE                   419D      H40_TSH37_EXIT_HOMING         
+4015      MAINSTARTADDRESS              41A5      FUNCTIONTABLE                 
+41D7      MOVEMINUS_ZERO                41AF      MOVEPLUS_ZERO                 
+41AF      MOVEPLUS_ZERO                 41D7      MOVEMINUS_ZERO                
+4011      WAIT_VDC                      41FF      _PROG_END_ADDR                
+
+[30 global symbols]
